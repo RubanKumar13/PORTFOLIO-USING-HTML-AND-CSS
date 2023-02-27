@@ -1,0 +1,115 @@
+* {
+    font-family: "DM Sans", "Segoe UI";
+}
+
+.header {
+    margin: 2% 2% 0% 2%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #c8d3d5;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.r_header {
+    grid-column-start: 2;
+}
+
+.l_header {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.pfp {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 25px;
+}
+
+
+a {
+    color: inherit;
+    text-decoration-line: none;
+}
+
+img {
+    border-radius: 25%;
+    padding: 2rem;
+}
+
+#shade {
+    opacity: 55%;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+}
+
+.gridDetails {
+    margin: 1.5%;
+    grid-column-gap: 2%;
+    grid-row-gap: 3%;
+    display: grid;
+    grid-template-columns: 46% 40% 10%;
+}
+
+.ContactDetails,
+.EducationDetails,
+.languages,
+.projects,
+.cer,
+.socialMedia {
+    background-color: #c8d3d5;
+    border-radius: 15px;
+    padding: 2% 4%;
+    display:grid;
+    align-items:center;
+    transition: all 0.5s ease 0s;
+}
+
+.ContactDetails:hover,
+.EducationDetails:hover,
+.languages:hover,
+.projects:hover,
+.cer:hover {
+    
+    color:white;
+    transition: all 0.35s ease 0s;
+    background-color: black;
+    word-spacing: 1px;
+}
+.socialMedia:hover{
+    background-color:red;
+}
+
+.socialMedia {
+    align-items: center;
+    justify-content: space-around;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+}
+
+.EducationDetails {
+    grid-row-start:1;
+    grid-row-end: 3;
+}
+
+.socialMedia { 
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    margin: 15px;
+}
